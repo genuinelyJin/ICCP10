@@ -21,8 +21,8 @@ function draw() {
   var people = [];
   for(var x=0; x<nDist; x++) {
     people[x] = new person(population.row[i].jachigu, population.row[i].dong, population.row[i].gye_1);
-    fill(people[x][2]);
-    ellipse(x*10,x*10,10,10);
+    //fill(people[x][2]);
+    //ellipse(x*10,x*10,10,10);
   }
   
  /* 
